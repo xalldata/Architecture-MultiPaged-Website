@@ -1,0 +1,469 @@
+* a {
+  text-decoration: none;
+}
+.img-slider {
+  color: #ffffff;
+  margin-top: 56px;
+  height: 720px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/home/desktop/image-hero-paramour.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 18.5%;
+}
+
+.slider-content {
+  width: 544px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-slider {
+  font-weight: normal;
+  font-size: 5em;
+  line-height: 80px;
+  letter-spacing: -2px;
+  margin-bottom: 14px;
+}
+
+.slider-content p {
+  margin-bottom: 65px;
+}
+
+.slider-content p,
+.main-button {
+  font-size: 0.9375em;
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  background-color: #1b1d23;
+  color: #ffffff;
+  padding: 1.5em 2em 1.4375em 1.875em;
+  border: none;
+}
+
+.main-button:hover {
+  background-color: #60636d;
+}
+
+.main-button svg {
+  margin-left: 48px;
+}
+
+.slide-numbers {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-25%);
+}
+
+.slide-button {
+  color: #7d828f;
+  background-color: #ffffff;
+  font-size: 0.9375em;
+  font-style: italic;
+  padding: 1.875em;
+  border: none;
+}
+
+.slide-button:hover {
+  background-color: #eeeff4;
+}
+
+.active {
+  color: white;
+  background-color: #1b1d23;
+}
+.active:hover {
+  background-color: #1b1d23;
+}
+
+.welcome-section {
+  margin-top: 95px;
+}
+
+.welcome-shadow {
+  position: relative;
+  z-index: 2;
+  transform: translateX(-7%);
+  font-size: 12.5em;
+  font-weight: normal;
+  line-height: 200px;
+  letter-spacing: -5px;
+  color: #eeeff4;
+}
+
+.welcome-text {
+  padding-left: 189px;
+  transform: translateY(-23%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title-paragraph {
+  width: 446px;
+}
+
+.welcome-title {
+  font-size: 3.5em;
+  color: #1b1d23;
+}
+.welcome-paragraph {
+  font-size: 0.9375em;
+  line-height: 25px;
+  color: #60636d;
+  margin-top: 56px;
+}
+
+.welcome-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line {
+  display: none;
+}
+
+/*About SECTION*/
+
+.about {
+  margin-top: 10px;
+}
+.about-img {
+  color: #ffffff;
+  height: 560px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/home/desktop/image-small-team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 18.5%;
+}
+
+.about-title {
+  margin-bottom: 40px;
+}
+.about-button svg {
+  margin-left: 24px;
+}
+
+/*Feature SECTION*/
+.featured {
+  position: relative;
+  margin-top: 208px;
+}
+
+.feature-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.portfolio-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 64px;
+}
+
+.portfolio-thumbnail {
+  height: 560px;
+  position: relative;
+}
+
+.one {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/portfolio/desktop/image-del-sol.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.two {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/portfolio/desktop/image-228b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.three {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/portfolio/desktop/image-prototype.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.number {
+  padding-top: 65px;
+  font-size: 12.5em;
+  line-height: 200px;
+  text-align: right;
+  letter-spacing: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.project-desc {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 40px 40px;
+}
+
+.project-desc p,
+.project-desc span {
+  font-weight: normal;
+  font-size: 1.125em;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.project-desc span {
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+/*Footer*/
+footer {
+  height: 200px;
+  width: 1050px;
+  background: #eeeff4;
+  margin-top: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background: #1b1d23;
+}
+.footer-button {
+  transform: translateX(50%);
+}
+/*MEDIA QUERIES*/
+
+@media (min-width: 925px) and (max-width: 1243px) {
+  .img-welcome-section {
+    display: none;
+  }
+  .welcome-shadow {
+    font-size: 7.5em;
+    transform: translateX(0%);
+  }
+  .welcome-text {
+    transform: translateY(0%);
+  }
+}
+
+@media (max-width: 925px) {
+  .page-container,
+  .welcome-section {
+    padding: 0 32px;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .img-slider {
+    padding: 0 32px;
+  }
+  .page-container {
+    padding: 0;
+  }
+  .side-page-name {
+    display: none;
+  }
+  .title-slider {
+    font-weight: normal;
+    font-size: 3em;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+  }
+  .slide-numbers {
+    display: none;
+  }
+  .img-welcome-section {
+    display: none;
+  }
+  .title-paragraph {
+    width: 100%;
+  }
+  .welcome-text {
+    padding-left: 0px;
+    transform: translateY(0%);
+  }
+  .welcome-shadow {
+    display: none;
+  }
+  .title-paragraph {
+    padding-top: 68px;
+  }
+  .line {
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #eeeff4;
+  }
+  .about {
+    margin-top: 97px;
+  }
+  .portfolio-imgs {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .portfolio-thumbnail {
+    height: 240px;
+  }
+  /*Change  order on mobile*/
+  .feature-content {
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-button {
+    padding: 0 inherit 0 inherit;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    order: 1;
+    margin-top: 30px;
+  }
+  .img-slider {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url("../assets/home/tablet/image-hero-paramour.jpg");
+  }
+  /*Feature SECTION*/
+  .featured {
+    margin-top: 75px;
+  }
+  header {
+    padding-top: 32px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    background-color: #eeeff4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  footer nav ul {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer li {
+    margin: 0;
+  }
+  .footer-button {
+    transform: translateX(0);
+  }
+
+  footer nav,
+  .footer-button,
+  footer li {
+    margin-bottom: 32px;
+  }
+  .logo-footer {
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 375px) {
+  .page-container {
+    padding: 0;
+  }
+  .img-slider {
+    padding: 10px;
+    width: 100%;
+  }
+  .slider-content {
+    width: 100%;
+  }
+  .side-page-name,
+  nav ul {
+    display: none;
+  }
+  .title-slider {
+    font-weight: normal;
+    font-size: 3em;
+    letter-spacing: -1.2px;
+  }
+  .welcome-section {
+    margin-top: 72px;
+    padding: 0 32px;
+  }
+  .img-welcome-section {
+    display: none;
+  }
+  .welcome-shadow {
+    display: none;
+  }
+  .welcome-text {
+    transform: translateY(0%);
+  }
+  .number {
+    display: none;
+  }
+  .img-slider {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url("../assets/home/mobile/image-hero-paramour.jpg");
+  }
+}

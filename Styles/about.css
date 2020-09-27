@@ -1,0 +1,252 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.sections {
+  margin-top: 56px;
+  position: relative;
+}
+
+.heritage-section,
+.leaders-section {
+  padding: 0 165px;
+}
+
+.about-hero {
+  margin-left: 165px;
+  width: 635px;
+  height: 720px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.0001) 0.01%,
+      rgba(0, 0, 0, 0.499044) 100%
+    ),
+    url("../assets/about/desktop/image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-text-content {
+  width: 446px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 3.5em;
+  line-height: 56px;
+  letter-spacing: -2px;
+  color: #1b1d23;
+  margin-bottom: 56px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 0.9375em;
+  line-height: 25px;
+  color: #60636d;
+}
+
+.about-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+  width: 793px;
+  height: 503px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.big-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  font-weight: normal;
+  font-size: 14.5rem;
+  line-height: 200px;
+
+  letter-spacing: -5px;
+
+  color: #eeeff4;
+}
+
+.heritage-text {
+  padding-top: 75px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 445px;
+}
+
+.heritage-text p {
+  margin-bottom: 25px;
+}
+
+.heritage-section,
+.leaders-section {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.leaders-title {
+  margin-right: 180px;
+}
+
+.line {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 2px;
+  background-color: #eeeff4;
+}
+
+.profiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.profile {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  background-color: rgba(36, 17, 17, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.linked {
+  margin-right: 32px;
+}
+
+.name {
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 1194px) {
+  .leaders-section {
+    flex-direction: column;
+  }
+  .profiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .page-container {
+    padding: 0 32px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sections {
+    padding: 0px;
+  }
+
+  .about-hero {
+    margin: 0;
+
+    width: 100%;
+
+    height: 720px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url("../assets/about/tablet/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .about-text-content {
+    width: 95%;
+  }
+  .about-text {
+    width: 100%;
+
+    height: auto;
+    left: 0;
+    bottom: 0;
+    padding-top: 77px;
+  }
+  .big-about {
+    font-size: 7.5em;
+  }
+  h3 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .heritage-section {
+    padding: 0 32px;
+    margin-top: 100px;
+  }
+  .leaders-section {
+    padding: 0 95px;
+    margin-top: 50px !important;
+  }
+  .heritage-text {
+    width: 100%;
+  }
+  .heritage-section img {
+    display: none;
+  }
+  .leaders-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leaders-title {
+    margin-bottom: 65px;
+  }
+  .small-screen path {
+    fill: #000;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about-hero {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.01%,
+        rgba(0, 0, 0, 0.499044) 100%
+      ),
+      url("../assets/about/mobile/image-hero.jpg");
+  }
+  .about-text {
+    padding-top: 77px;
+    width: 95%;
+    display: block;
+    left: 0;
+  }
+  h3 {
+    margin: 0;
+  }
+  .big-about {
+    display: none;
+  }
+}
